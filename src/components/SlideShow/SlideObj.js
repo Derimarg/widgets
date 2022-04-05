@@ -6,20 +6,20 @@ const imageInfo = [
     num: "1 / 3",
     desc: "Caption image 1",
   },
-  {
-    key: 2,
-    url: `${require("./../../assets/img/img-2.jpeg")}`,
-    alt: "Slide two",
-    num: "2 / 3",
-    dmgDesc: "Caption image 2",
-  },
-  {
-    key: 3,
-    url: `${require("./../../assets/img/img-3.jpeg")}`,
-    alt: "Slide three",
-    num: "3 / 3",
-    desc: "Caption image 3",
-  },
+//   {
+//     key: 2,
+//     url: `${require("./../../assets/img/img-2.jpeg")}`,
+//     alt: "Slide two",
+//     num: "2 / 3",
+//     dmgDesc: "Caption image 2",
+//   },
+//   {
+//     key: 3,
+//     url: `${require("./../../assets/img/img-3.jpeg")}`,
+//     alt: "Slide three",
+//     num: "3 / 3",
+//     desc: "Caption image 3",
+//   },
 ];
 
 const dotInfo = imageInfo.map(img => ({
