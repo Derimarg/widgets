@@ -2,8 +2,7 @@ import React from "react";
 import "./Slide.css";
 import { imageInfo, dotInfo } from "./SlideObj";
 
-export const SlideShow = () => {
-  
+function SlideShow() {
   return (
     <div>
       <div className="slideshow-container">
@@ -22,4 +21,6 @@ export const SlideShow = () => {
       </div>
     </div>
   );
-};
+}
+
+export default SlideShow;

@@ -1,4 +1,5 @@
-import { SlideShow } from "../SlideShow/SlideShow";
+import SlideShow from "../SlideShow/SlideShow";
+import Accordion from "../Accordion/Accordion";
 
 const widgets = [
   {
@@ -168,6 +169,15 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
     `,
+  },
+  {
+    Name: "Accordion",
+    Description:
+      "Accordions are useful when you want to toggle between hiding and showing large amount of content:",
+    DisplayComponent: <Accordion />,
+    HTML: ``,
+    CSS: ``,
+    JS: ``,
   },
 ];
 
